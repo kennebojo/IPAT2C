@@ -6,3 +6,7 @@ def home(request):
     #HERE
 
     return render(request, 'home.html')
+
+def  register(request):
+
+    return render(request, 'register.html')
